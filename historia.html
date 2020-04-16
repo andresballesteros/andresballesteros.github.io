@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Historia</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script|Playfair+Display|Source+Sans+Pro"
+    />
+    <link rel="stylesheet" href="css/historia.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="points-container">
+        <a href="#" class="point p0">
+          <div>+</div>
+        </a>
+        <a href="#" class="point p1">
+          <div>+</div>
+        </a>
+        <a href="#" class="point p2">
+          <div>+</div>
+        </a>
+        <a href="#" class="point p3">
+          <div>+</div>
+        </a>
+        <a href="#" class="point p4">
+          <div>+</div>
+        </a>
+      </div>
+      <div id="points-info">
+        <div>
+          <h2>Lorem, ipsum dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            obcaecati corrupti ex inventore unde eum accusantium voluptatum quia
+            perspiciatis eligendi doloribus enim quod incidunt, repudiandae
+            ipsam sint aspernatur sed rem!
+          </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p><a href="#" class="btn btn-vrd close-btn">Cerrar</a></p>
+        </div>
+        <div>
+          <h2>Lorem, ipsum dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            obcaecati corrupti ex inventore unde eum accusantium voluptatum quia
+            perspiciatis eligendi doloribus enim quod incidunt, repudiandae
+            ipsam sint aspernatur sed rem!
+          </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p><a href="#" class="btn btn-vrd close-btn">Cerrar</a></p>
+        </div>
+        <div>
+          <h2>Lorem, ipsum dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            obcaecati corrupti ex inventore unde eum accusantium voluptatum quia
+            perspiciatis eligendi doloribus enim quod incidunt, repudiandae
+            ipsam sint aspernatur sed rem!
+          </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p><a href="#" class="btn btn-vrd close-btn">Cerrar</a></p>
+        </div>
+        <div>
+          <h2>Lorem, ipsum dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            obcaecati corrupti ex inventore unde eum accusantium voluptatum quia
+            perspiciatis eligendi doloribus enim quod incidunt, repudiandae
+            ipsam sint aspernatur sed rem!
+          </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p><a href="#" class="btn btn-vrd close-btn">Cerrar</a></p>
+        </div>
+        <div>
+          <h2>Lorem, ipsum dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            obcaecati corrupti ex inventore unde eum accusantium voluptatum quia
+            perspiciatis eligendi doloribus enim quod incidunt, repudiandae
+            ipsam sint aspernatur sed rem!
+          </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p><a href="#" class="btn btn-vrd close-btn">Cerrar</a></p>
+        </div>
+      </div>
+      <div id="historia-section" class="bg-pueblo">
+        <div id="logo">
+          <a href="index.html"><img src="img/logo.png" alt="" /></a>
+        </div>
+        <div id="menu">
+          <h2>Un lugar</h2>
+          <h3>Donde el secreto es mantenido</h3>
+          <ul>
+            <li>
+              <a href="historia.html">
+                <div class="point-out active-point">
+                  <div class="point-in"></div>
+                </div>
+                PUEBLO
+              </a>
+            </li>
+            <li>
+              <a href="cosecha.html">
+                <div class="point-out">
+                  <div class="point-in"></div>
+                </div>
+                COSECHA
+              </a>
+            </li>
+            <li>
+              <a href="cocina.html">
+                <div class="point-out">
+                  <div class="point-in"></div>
+                </div>
+                COCINA
+              </a>
+            </li>
+            <li>
+              <a href="ciudad.html">
+                <div class="point-out">
+                  <div class="point-in"></div>
+                </div>
+                CIUDAD
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <footer id="footer">
+        <ul>
+          <li><a href="terminos.html">Términos</a></li>
+          <li><a href="privacidad.html">Privacidad</a></li>
+          <li><a href="copy.html">Copyright</a></li>
+        </ul>
+        <div id="derechos">
+          &copy; ABB Derechos reservados 2020.
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script>
+      $(function () {
+        $(".point").on("click", function () {
+          console.log("se hizo click");
+          var i = $(this).index();
+          console.log("Este es el index = " + i);
+          $("#points-info div").hide();
+          $("#points-info").fadeIn();
+          $("#points-info div").eq(i).show();
+        });
+
+        $(".close-btn").on("click", function () {
+          $("#points-info").fadeOut();
+        });
+      });
+    </script>
+  </body>
+</html>
