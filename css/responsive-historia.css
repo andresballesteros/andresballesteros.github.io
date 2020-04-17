@@ -1,0 +1,100 @@
+@media screen and (max-width: 620px) {
+  #main-container #logo {
+    width: 130px;
+  }
+
+  #historia-section {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #main-container #historia-section #menu > h2 {
+    font-size: 80px;
+    margin-top: -10px;
+  }
+
+  #main-container #historia-section #menu ul {
+    margin-top: 300px;
+  }
+
+  #main-container #historia-section #menu ul li {
+    margin: 0px 15px;
+  }
+
+  #main-container #historia-section #menu > h3 {
+    font-size: 30px;
+    margin-top: -30px;
+  }
+
+  .p0 {
+    left: 25%;
+    top: 55%;
+  }
+
+  .p1 {
+    left: 45%;
+    top: 55%;
+  }
+
+  .p2 {
+    left: 65%;
+    top: 55%;
+  }
+
+  .p3 {
+    left: 5%;
+    top: 55%;
+  }
+
+  .p4 {
+    left: 85%;
+    top: 55%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #main-container #historia-section #menu > h2 {
+    font-size: 60px;
+    margin-top: -10px;
+  }
+
+  #main-container #historia-section #menu ul {
+    margin-top: 200px;
+  }
+
+  #main-container #historia-section #menu ul li {
+    margin: 0px 3px;
+  }
+
+  #main-container #historia-section #menu > h3 {
+    font-size: 20px;
+    margin-top: -30px;
+  }
+
+  .p0 {
+    left: 25%;
+    top: 75%;
+  }
+
+  .p1 {
+    left: 45%;
+    top: 75%;
+  }
+
+  .p2 {
+    left: 65%;
+    top: 75%;
+  }
+
+  .p3 {
+    left: 5%;
+    top: 75%;
+  }
+
+  .p4 {
+    left: 85%;
+    top: 75%;
+  }
+}

@@ -1,0 +1,44 @@
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 970px) {
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 620px) {
+  #recetas-section {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+  }
+  #main-container #ingredientes {
+    width: 68%;
+  }
+  #main-container #preparacion {
+    width: 60%;
+  }
+
+  #main-container section .lista-ingredientes li {
+    margin-left: -35px;
+  }
+
+  #main-container section .lista-ingredientes li div {
+    font-size: 1.33em;
+    width: 118px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #main-container .recetas-titulo h1 {
+    font-size: 3em;
+  }
+
+  #main-container #recetas-content section .thumbnail {
+    width: 80%;
+  }
+
+  #main-container #recetas-content section .thumbnail .image a img {
+    margin: 4px -10px;
+    width: 250px;
+  }
+}

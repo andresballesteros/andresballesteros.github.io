@@ -5,7 +5,84 @@
 @media screen and (max-width: 767px) {
 }
 @media screen and (max-width: 620px) {
+  #main-container #logo {
+    display: inline-block;
+    width: 100%;
+  }
+
+  #main-container #main-section {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #main-container #main-section #menu ul li p {
+    display: none;
+  }
+
+  #main-container #main-section #menu ul li {
+    margin: 40px 25px;
+    height: 200px;
+    width: 250px;
+    overflow: visible;
+    transition: none;
+  }
+
+  #main-container #main-section #menu ul li:hover {
+    height: 200px;
+  }
+
+  #main-container #main-section #menu ul li a {
+    color: white;
+    text-decoration: none;
+    height: 100px;
+  }
+
+  #main-container #main-section #menu ul li:hover > div a h3 {
+    opacity: 1;
+  }
+
+  #main-container #main-section #menu ul li a h2 {
+    font-size: 38px;
+  }
+
+  #main-container #main-section #menu ul li a h3 {
+    font-size: 26px;
+    opacity: 1;
+    transition: none;
+  }
+
+  #main-container #points-info div {
+    width: 80%;
+    height: 70%;
+    margin: 50px auto;
+    padding: 100px;
+  }
 }
 
 @media screen and (max-width: 400px) {
+  #main-container #main-section #menu {
+    margin: 0 auto;
+  }
+
+  #main-container #main-section #menu ul li {
+    margin: 20px 25px;
+    height: 100px;
+  }
+
+  #main-container #main-section #menu ul li a h2 {
+    font-size: 28px;
+  }
+
+  #main-container #main-section #menu ul li a h3 {
+    font-size: 16px;
+  }
+
+  #main-container #points-info div {
+    width: 80%;
+    height: 80%;
+    margin: 25px auto;
+    padding: 25px;
+  }
 }

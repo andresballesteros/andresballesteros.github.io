@@ -1,0 +1,83 @@
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 970px) {
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 620px) {
+  #productos-section {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 76vh;
+  }
+
+  #main-container .bg-productos ul li {
+    margin-left: 15%;
+  }
+
+  #main-container .bg-productos h2 span::after {
+    left: 20%;
+    margin-top: 60px;
+  }
+
+  #main-container .productos-titulo h1 {
+    font-size: 3em;
+  }
+
+  #main-container .productos-content .description h2 {
+    font-size: 4em !important;
+  }
+
+  #main-container .productos-content .description h3 {
+    font-size: 2.5em;
+  }
+
+  #main-container .productos-content .description p {
+    font-size: 1.2em;
+  }
+
+  #main-container .productos-content #frutos01-content,
+  #main-container .productos-content #frutos02-content,
+  #main-container .productos-content #frutos03-content,
+  #main-container .productos-content #mermeladas01-content,
+  #main-container .productos-content #mermeladas02-content,
+  #main-container .productos-content #mermeladas03-content,
+  #main-container .productos-content #ajvar01-content,
+  #main-container .productos-content #ajvar02-content,
+  #main-container .productos-content #ajvar03-content {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+  }
+
+  #main-container .productos-content .description {
+    width: 80%;
+  }
+
+  .align-left,
+  .align-center,
+  .align-right {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #main-container .bg-productos h2:hover span::after {
+    width: 0;
+  }
+
+  #main-container .productos-content .description h2 {
+    font-size: 2em !important;
+  }
+
+  #main-container .productos-content .description h3 {
+    font-size: 1.25em;
+  }
+
+  #main-container .productos-content .description p {
+    font-size: 0.8em;
+  }
+}
