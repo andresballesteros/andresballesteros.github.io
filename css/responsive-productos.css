@@ -5,11 +5,16 @@
 @media screen and (max-width: 767px) {
 }
 @media screen and (max-width: 620px) {
+  #main-container #logo {
+    margin-left: 24%;
+  }
+
   #productos-section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 76vh;
+    padding-left: 25px;
   }
 
   #main-container .bg-productos ul li {

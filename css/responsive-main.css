@@ -62,21 +62,25 @@
 }
 
 @media screen and (max-width: 400px) {
+  #main-container #main-section {
+    height: 125vh;
+  }
+
   #main-container #main-section #menu {
     margin: 0 auto;
   }
 
   #main-container #main-section #menu ul li {
-    margin: 20px 25px;
+    margin: 56px 25px;
     height: 100px;
   }
 
   #main-container #main-section #menu ul li a h2 {
-    font-size: 28px;
+    font-size: 3em;
   }
 
   #main-container #main-section #menu ul li a h3 {
-    font-size: 16px;
+    font-size: 1.5em;
   }
 
   #main-container #points-info div {
