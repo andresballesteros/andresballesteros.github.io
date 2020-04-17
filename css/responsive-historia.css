@@ -9,6 +9,9 @@
     background-position: center;
     background-size: cover;
   }
+  #main-container .bg-cocina {
+    background-position: -150px;
+  }
 
   #main-container #historia-section #menu > h2 {
     font-size: 80px;
