@@ -18,7 +18,8 @@
   }
 
   #main-container #main-section #menu ul li p {
-    display: none;
+    display: block;
+    margin: 10px;
   }
 
   #main-container #main-section #menu ul li {
@@ -63,7 +64,7 @@
 
 @media screen and (max-width: 400px) {
   #main-container #main-section {
-    height: 125vh;
+    height: 160vh;
   }
 
   #main-container #main-section #menu {
@@ -71,7 +72,7 @@
   }
 
   #main-container #main-section #menu ul li {
-    margin: 56px 25px;
+    margin: 78px 25px;
     height: 100px;
   }
 
